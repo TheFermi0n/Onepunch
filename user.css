@@ -40,9 +40,8 @@
   padding-top: 12px;
 }
 
-
 .SidebarListItem--is-active {
-  background: var(--modspotify_secondary_bg);
+  background: var(--modspotify_preserve_1);
   border-radius: 10px;
   width: 70%;
   position: relative;
@@ -116,11 +115,13 @@ html .SidebarList__title {
   overflow: hidden !important;
 }
 
-.Card__info-title a,
 .GlueSectionDivider__title {
+  color: var(--modspotify_secondary_text);
+}
+
+.Card__info-title a {
   line-height: 30px;
-  letter-spacing: 0;
-  color: var(--modspotify_primary_text);
+  color: var(--modspotify_extra_labels);
 }
 
 /* CARD INFO DETAILS EDIT */
@@ -299,6 +300,29 @@ body.remotebar .view-player .player-bar-wrapper {
 .tl-highlight {
   color: var(--modspotify_primary_text) !important;
 }
+
+
+/* isidde profile page */
+.section-divider>*,
+.section-divider .section-auxiliary a {
+  color: var(--modspotify_preserve_1);
+}
+
+.card-info-title a {
+  color: var(--modspotify_secondary_text);
+}
+
+.nav>li.active>a {
+  color: var(--modspotify_main_bg);
+  background: var(--modspotify_main_fg);
+  border-radius: 4px;
+  line-height: 33px;
+}
+
+
+
+
+
 
 /*
 *
