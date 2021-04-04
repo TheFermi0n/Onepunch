@@ -19,9 +19,4 @@ Wondering what is changed, then check this [file](./changelog.md).
 
 #### Contact
 
-Click **[here](https://twitter.com/_okarin_001)** for _feedback_, _sharing new ideas_ and _reporting bugs_ only.  
-Format for bug reporting:  
-
-     Operating System(!important):
-
-     Description of issue:
+Go **[here](https://github.com/okarin001/Onepunch/issues)** and create an issue in case of any probelm. 
