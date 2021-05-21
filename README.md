@@ -12,8 +12,7 @@ A simple gruvified spotify theme.
 #### First Aid Kit  ¯\\_(ツ)\_/¯
 
 - To change color schemes **`spicetify config color_scheme color_scheme_name`** (change the **`color_scheme_name`** to dark/light)
-- Tested on macOS only and pretty much everything worked. 
-- In case you want the legacy theme you can find it [here](./.legacy/) ﾍ(･_|
+- Tested on macOS only and pretty much everything worked. ﾍ(･_|
 
 #### On my list
 - [x] Gruvified and updated to the new UI.
