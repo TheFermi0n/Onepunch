@@ -2,7 +2,7 @@
 
 ## Screenshots
 
-#### dark
+#### Dark
 
 |   ![dark_home](./screenshots/dark_home.png)   |   ![dark_album](./screenshots/dark_album.png)   | ![dark_playlist](./screenshots/dark_playlist.png) |
 | :-------------------------------------------: | :---------------------------------------------: | :-----------------------------------------------: |
@@ -10,7 +10,7 @@
 | ![dark_podcast](screenshots/dark_podcast.png) | ![dark_profile](./screenshots/dark_profile.png) |
 |                    podcat                     |                     profile                     |
 
-#### light
+#### Light
 
 |   ![light_home](./screenshots/light_home.png)   |   ![light_album](./screenshots/light_album.png)   | ![light_playlist](./screenshots/light_playlist.png) |
 | :---------------------------------------------: | :-----------------------------------------------: | :-------------------------------------------------: |
