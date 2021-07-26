@@ -26,7 +26,7 @@ If applicable, add screenshots to help explain your problem.
 **Desktop (please complete the following information):**
 
 - OS: [e.g. macOS]
-- Version [e.g. 1.1.62.583.gdac868ed-a]
+- Version [e.g. 1.1.6x.xxx.xxxxxxx-x]
 
 **Additional context**
 Add any other context about the problem here.
