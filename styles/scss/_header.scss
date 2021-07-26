@@ -1,0 +1,71 @@
+// common header
+
+.x {
+	// remove colored backgrounds
+	&-441-entityHeader-overlay,
+	&-914-entityHeader-overlay,
+	&-entityHeader-overlay,
+	&-914-actionBarBackground-background,
+	&-actionBarBackground-background {
+		background-color: unset !important;
+		background-image: unset !important;
+	}
+
+	&-441-actionBarBackground-background {
+		background-color: $main !important;
+	}
+}
+
+// main headers
+.main {
+	// remove colored backgrounds
+	&-home-homeHeader,
+	&-actionBarBackground-background,
+	&-entityHeader-overlay,
+	&-entityHeader-backgroundColor {
+		background-color: unset !important;
+		background-image: unset !important;
+	}
+
+	&-entityHeader {
+		// content visibility
+		&-topbarContent:not(.main-entityHeader-topbarContentFadeIn) {
+			> * {
+				opacity: unset !important;
+			}
+		}
+		&-shadow {
+			box-shadow: 0 0 4px 0 rgba($shadow-rgb, $opacity-less);
+		}
+	}
+
+	// top bars
+	&-topBar {
+		// topbar visibility
+		&-topbarContent:not(.main-topBar-topbarContentFadeIn) {
+			> * {
+				opacity: unset !important;
+			}
+		}
+
+		// remove topbar background color
+		&-background {
+			background-color: unset !important;
+		}
+
+		// add overlay over header
+		&-overlay {
+			background-color: $main !important;
+		}
+	}
+
+	&-trackList-playingIcon {
+		filter: hue-rotate(270deg);
+	}
+}
+
+span.artist-artistVerifiedBadge-badge {
+	svg:nth-child(1) {
+		fill: $main;
+	}
+}

@@ -1,0 +1,48 @@
+//  home page
+
+// page title
+.main-shelf-title {
+	color: $subtext;
+}
+
+// top-shortcut
+.view-homeShortcutsGrid {
+	// shortucut name
+	&-name {
+		color: $text;
+	}
+
+	// border radius
+	&-shortcut,
+	&-shortcut &-imageWrapper {
+		border-radius: $border-radius !important;
+	}
+	&-shortcut &-image {
+		border-radius: $border-radius-expand !important;
+	}
+}
+
+// home-page cards
+.main-cardImage {
+	// all kind of cards
+	&-imageWrapper,
+	&-imagePlaceholder,
+	&-image {
+		border-radius: $border-radius !important;
+	}
+
+	// for the profiles
+	&-circular {
+		border-radius: $border-radius-percentage !important;
+	}
+}
+
+.main-entityHeader {
+	&-circle {
+		border-radius: $border-radius-percentage !important;
+	}
+
+	&-image {
+		border-radius: $border-radius;
+	}
+}

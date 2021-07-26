@@ -1,0 +1,30 @@
+// podcast page
+
+.x {
+	// podcast details
+	&-hTMLDescription-HTMLDescription,
+	&-expandableDescription-paragraph {
+		color: $text !important;
+	}
+	// buttons in podcat page
+	&-seeMore-button,
+	&-expandableDescription-button {
+		color: $button !important;
+	}
+}
+
+// fonts in description box
+.main {
+	&-type-minuetBold {
+		color: $extratext !important;
+	}
+
+	// the main description box
+	&-entityTitle-subtitle {
+		&,
+		&.main-entityTitle-large,
+		&.main-entityTitle-bold {
+			color: $subtext !important;
+		}
+	}
+}

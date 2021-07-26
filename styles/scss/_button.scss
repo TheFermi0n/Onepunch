@@ -1,0 +1,12 @@
+// play button in main page
+.main-playButton-PlayButton.main-playButton-primary {
+    color: $main;
+    background-color: $button;
+}
+
+.connect {
+    &-title,
+    &-header {
+        display: none;
+    }
+}

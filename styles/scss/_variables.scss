@@ -1,0 +1,65 @@
+// Variables
+
+// Type
+$font-size-default: 14px !default;
+$font-size-large: 18px !default;
+
+$font-weight: 500 !default;
+$font-weight-bold: 700 !default;
+$font-weight-light: 300 !default;
+
+$line-height-default: 1.6 !default;
+
+// Colors just variable names from color.ini
+$text: var(--spice-text);
+$subtext: var(--spice-subtext);
+$extratext: var(--spice-extratext);
+$main: var(--spice-main);
+$sidebar: var(--spice-sidebar);
+$player: var(--spice-player);
+$sec-player: var(--spice-player);
+$card: var(--spice-card);
+$sec-card: var(--spice-sec-card);
+$shadow: var(--spice-shadow);
+$selected-row: var(--spice-selected-row);
+$button: var(--spice-button);
+$button-active: var(--spice-button-active);
+$button-disabled: var(--spice-button-disabled);
+$tab-active: var(--spice-tab-active);
+$notification: var(--spice-notification);
+$notification-error: var(--spice-notification-error);
+$misc: var(--spice-misc);
+// spotify app's own color
+$default-fg-color: var(--fg-color);
+
+// rgb colors
+$shadow-rgb: var(--spice-rgb-shadow);
+$button-disabled-rgb: var(--spice-rgb-button-disabled);
+
+// border radius
+$border: 5px;
+$border-radius: 10px;
+$border-radius-more: 25px;
+$border-radius-expand: 10px 0 0 10px;
+$border-radius-expand-more: 15px 15px 0 0;
+$border-radius-percentage: 50%;
+
+// dimension
+$height: 5px;
+
+// opacity
+$opacity: 0.7;
+$opacity-less: 0.5;
+$opacity-mini: 0.2;
+
+// Padding
+$padding: 12px;
+$padding-mini: 3px;
+$padding-less: 5px;
+$padding-more: 20px;
+
+// gradients
+$gradient: linear-gradient(180deg, var(--spice-main), transparent);
+
+// box shadows
+$box-default: 0 -2px 5px 0;

@@ -1,0 +1,15 @@
+// friend activity
+.main-buddyFeed-activityMetadata {
+	.main-buddyFeed-artistAndTrackName a,
+	.main-buddyFeed-playbackContext a,
+	.main-buddyFeed-usernameAndTimestamp a {
+		color: $text !important;
+	}
+	.main-buddyFeed-username a {
+		color: $subtext !important;
+	}
+}
+
+.main-avatar-avatar.main-avatar-withBadge:after {
+	background: $extratext;
+}

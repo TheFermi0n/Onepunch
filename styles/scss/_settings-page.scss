@@ -1,0 +1,41 @@
+/* setting page */
+
+.x-settings-container {
+    margin: 16px 180px !important;
+}
+
+.x-settings-title {
+    color: var(--spice-subtext) !important;
+}
+
+.main-dropDown-dropDown {
+    border: 0;
+    border-radius: 10px;
+}
+
+.main-dropDown-dropDown {
+    background-color: var(--spice-button-disabled) !important;
+    color: var(--spice-text) !important;
+}
+
+.x-toggle-indicator {
+    background: var(--spice-button) !important;
+    box-shadow: 0 2px 4px 0 rgba(var(--spice-rgb-shadow), 0.5);
+}
+
+input:checked ~ .x-toggle-indicatorWrapper .x-toggle-indicator {
+    background-color: var(--spice-button) !important;
+    box-shadow: 0 2px 4px 0 rgba(var(--spice-rgb-shadow), 0.5);
+}
+
+input:hover:not([disabled]):not(:active) ~ .x-toggle-indicatorWrapper {
+    background-color: rgba(var(--spice-rgb-button-disabled), 0.7) !important;
+}
+
+input:checked ~ .x-toggle-indicatorWrapper {
+    background-color: rgba(var(--spice-rgb-button), 0.6) !important;
+}
+
+input:checked:hover:not([disabled]):not(:active) ~ .x-toggle-indicatorWrapper {
+    background-color: rgba(var(--spice-rgb-button), 0.4) !important;
+}

@@ -1,0 +1,46 @@
+// mini-player
+
+.Root__now-playing-bar {
+	background-color: $sec-player !important;
+	box-shadow: $box-default rgba($shadow-rgb, $opacity-less) !important;
+	border-radius: $border-radius-expand-more !important;
+}
+
+.main-nowPlayingBar-container {
+	background-color: var(--spice-sec-player) !important;
+	border-radius: $border-radius-expand-more !important;
+}
+
+.main-connectBar-connectBar.main-connectBar-FullscreenModeButtonEnabled.main-type-mesto {
+	color: $sidebar !important;
+}
+
+.main-shuffleButton-button.main-shuffleButton-on,
+.main-repeatButton-button.main-repeatButton-on {
+	color: $button !important;
+}
+
+.progress-bar {
+	--progress-bar-height: $height !important;
+
+	&__bg {
+		background-color: rgba($button-disabled-rgb, $opacity) !important;
+	}
+
+	&--is-active &__fg,
+	:not(.no-focus-outline) &:focus-within &__fg {
+		background-color: $default-fg-color;
+	}
+}
+
+.cover-art {
+	&,
+	& &-image {
+		border-radius: $border-radius !important;
+		background-color: $sec-player !important;
+	}
+
+	&--with-auto-height {
+		border: solid $sec-player $border !important;
+	}
+}

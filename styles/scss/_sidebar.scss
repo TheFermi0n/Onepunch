@@ -1,0 +1,61 @@
+// sidebar
+
+// sidebar fixed item logo
+.logo {
+	background-color: $sec-card !important;
+	color: $main !important;
+}
+
+// active sidebar item
+.main-navBar-navBarLinkActive {
+	&,
+	&:focus {
+		background-color: $sec-card !important;
+		color: $main !important;
+	}
+}
+
+.main-likedSongsButton-likedSongsIcon,
+.main-createPlaylistButton-createPlaylistIcon,
+.main-yourEpisodesButton-yourEpisodesIcon {
+	background: $text !important;
+	border-radius: unset !important;
+	color: $main !important;
+}
+
+.main-collectionLinkButton-collectionLinkButton {
+	color: $main !important;
+}
+
+.main-createPlaylistButton-button {
+	color: $text !important;
+}
+
+.main-rootlist {
+	&-rootlistItemLink,
+	&-rootlistItemLink:visited {
+		color: $text !important;
+	}
+
+	&-rootlistItemLinkActive,
+	&-rootlistItemLink:hover,
+	&-textWrapper:hover {
+		color: $subtext !important;
+	}
+
+	&-rootlistDividerGradient {
+		background: $gradient;
+	}
+	&-rootlistDivider {
+		background-color: unset !important;
+	}
+}
+
+.main-collectionLinkButton {
+	&-collectionLinkButton &-selected &-icon {
+		opacity: $opacity !important;
+	}
+	&-collectionLinkButton &-collectionLinkText {
+		color: $text !important;
+	}
+}
